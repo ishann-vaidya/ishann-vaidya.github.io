@@ -80,6 +80,23 @@ export const site = {
       stack: ['Python', 'Flask', 'Docker', 'bge-small', 'phi-2', 'PyMuPDF'],
       links: [
         { label: 'GitHub', href: 'https://github.com/ishann-vaidya/Devgenix_1B' },
+        { label: 'Live Demo', href: '#' },
+      ],
+    },
+    {
+      title: 'Election Agent',
+      year: '2026',
+      badge: 'Agentic workflow',
+      problem:
+        'Election data, candidate information, and public issues are spread across disconnected sources, making meaningful research time-consuming.',
+      solution:
+        'Developed an AI-powered election assistant that delivers contextual responses, issue analysis, and streamlined information discovery through an interactive web platform.',
+      impact:
+        'Simplified election research into a faster, more accessible experience while showcasing a deployable full-stack AI application with a live public demo.',
+      stack: ['React18', 'TypeScript', 'Vite', 'GroqAI', 'Netlify'],
+      links: [
+        { label: 'GitHub', href: 'https://github.com/ishann-vaidya/election-agent' },
+        { label: 'Live Demo', href: 'https://election-agent.netlify.app/' },
       ],
     },
     {
@@ -95,6 +112,7 @@ export const site = {
       stack: ['Flask', 'MySQL', 'HTML', 'CSS', 'Python'],
       links: [
         { label: 'GitHub', href: 'https://github.com/ishann-vaidya/DBMS-MiniProject' },
+        { label: 'Live Demo', href: '#' },
       ],
     },
   ],

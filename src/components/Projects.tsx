@@ -30,6 +30,20 @@ export function Projects() {
               </div>
               <div className="projects__links">
                 {project.links.map((link) => (
+                  link.href === '#' ? (
+                    <a
+                      key={link.href + link.label}
+                      href={link.href}
+                      className="projects__link"
+                      aria-disabled="true"
+                      onClick={(event) => event.preventDefault()}
+                    >
+                      {link.label}
+                      <span aria-hidden className="projects__link-arrow">
+                        ↗
+                      </span>
+                    </a>
+                  ) : (
                   <a
                     key={link.href}
                     href={link.href}
@@ -42,6 +56,7 @@ export function Projects() {
                       ↗
                     </span>
                   </a>
+                  )
                 ))}
               </div>
             </div>
