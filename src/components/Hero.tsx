@@ -40,7 +40,7 @@ export function Hero() {
 
         <div className="hero__signal hero__signal--one" aria-hidden />
         <div className="hero__signal hero__signal--two" aria-hidden />
-        </div>
+      </div>
     </section>
   )
 }
